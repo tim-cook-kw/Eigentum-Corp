@@ -297,6 +297,47 @@
 								</span>
                             </a>
                         </div>
+                        <div class="header__indicator" data-dropdown-trigger="click">
+                            <a href="cart.html" class="header__indicator-button indicator">
+                                <span class="indicator__area">
+																				<span class="indicator__value">2</span>
+                                <svg class="indicator__icon" width="20px" height="20px">
+                                    <use xlink:href="images/sprite.svg#cart-20"></use>
+                                </svg>
+                                </span>
+                            </a>
+                            <div class="header__indicator-dropdown">
+                                <div class="dropcart">
+                                    <div class="dropcart__products-list">
+                                        
+                                    </div>
+                                    <div class="dropcart__totals">
+                                        <table>
+                                            <tr>
+                                                <th>Subtotal</th>
+                                                <td>Rp. 1.000.000.000</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Kredit/Cash</th>
+                                                <td>Kredit</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Tax</th>
+                                                <td>Rp. 200.000.000</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Total</th>
+                                                <td>Rp. 1.200.000.000</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="dropcart__buttons">
+                                        <a class="btn btn-secondary" href="cart.html">View Cart</a>
+                                        <a class="btn btn-primary" href="checkout.html">Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>  
             </header>

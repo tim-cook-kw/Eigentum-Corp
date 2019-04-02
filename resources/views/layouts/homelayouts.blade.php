@@ -40,6 +40,7 @@
     @include('navbar')
     <!-- content body -->
     @yield('content')
-    
+    <!-- Footer -->
+    @include('footer')
 </body>
 </html>
