@@ -16,7 +16,6 @@ class Productdatabase extends Migration
         Schema::create('product', function (Blueprint $table) {
             $table->bigIncrements('id_product');
             $table->integer('id_category')->unsigned();
-            $table->foreign('id_category')->references('id_category')->on('Categorydatabase');
             $table->string('product_name');
             $table->text('comment_description');
             $table->blob('image');
