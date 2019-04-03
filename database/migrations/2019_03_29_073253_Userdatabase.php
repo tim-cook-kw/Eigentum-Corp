@@ -17,7 +17,6 @@ class Userdatabase extends Migration
             $table->bigIncrements('id_user');
             $table->string('department_name');
             $table->integer('id_role')->unsigned();
-            $table->foreign('id_role')->references('id_role')->on('Roledatabase');
             $table->string('username');
             $table->string('password');
         });

@@ -16,7 +16,6 @@ class Salesreportdatabase extends Migration
         Schema::create('sales_report', function (Blueprint $table) {
             $table->bigIncrements('id_sales_report');
             $table->integer('id_transaction')->unsigned();
-            $table->foreign('id_transaction')->references('id_transaction')->on('Transactiondatabase');
         });
     }
 

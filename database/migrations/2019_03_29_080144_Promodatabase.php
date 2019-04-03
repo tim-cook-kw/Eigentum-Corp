@@ -16,7 +16,6 @@ class Promodatabase extends Migration
         Schema::create('promo', function (Blueprint $table) {
             $table->bigIncrements('id_promo');
             $table->integer('id_product')->unsigned();
-            $table->foreign('id_product')->references('id_product')->on('Productdatabase');
             $table->text('promo_description');
             $table->blob('promo_image');
             $table->string('type_of_promotion');
