@@ -245,7 +245,10 @@
                                     <div class="main-nav__sub-menu">
                                         <ul class="menu">
                                             <li class="menu__item">
-                                                <a class="menu__link" href="account.html">My Account</a>
+                                                <a class="menu__link" href="/login">Login</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a class="menu__link" href="/register">Register</a>
                                             </li>
                                             <li class="menu__item">
                                                 <a class="menu__link" href="wishlist.html">Wishlist</a>
@@ -271,7 +274,7 @@
                                     </div>
                                 </li>
                                 <li class="main-nav__item">
-                                    <a class="main-nav__link" href="contact-us.html">Contact Us</a>
+                                    <a class="main-nav__link" href="/contact-us">Contact Us</a>
                                 </li>
                                 <li class="main-nav__item">
                                     <a class="main-nav__link" href="/about-us">About Us</a>
