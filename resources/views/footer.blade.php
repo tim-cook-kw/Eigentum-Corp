@@ -13,13 +13,13 @@
                                     </div>
                                     <ul class="footer-aboutus__contacts">
                                         <li class="footer-aboutus__contacts-item">
-                                            <a href="#">Jl. Jendral Sudirman no 88, Jakarta Selatan, Jakarta.</a>
+                                            <a href="#">Jl. Kedoya Raya No.7, RT.1/RW.1, Kedoya Utara, Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520</a>
                                         </li>
                                         <li class="footer-aboutus__contacts-item">
                                             <a href="#">eigentum@corp.com</a>
                                         </li>
                                         <li class="footer-aboutus__contacts-item">
-                                            <a href="#">+1 754 000-00-00</a>
+                                            <a href="#">+62888-111-222-333</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -31,13 +31,13 @@
                                     </div>
                                     <ul class="footer-aboutus__contacts">
                                         <li class="footer-aboutus__contacts-item">
-                                            <a href="#">Jl. Kuningan Barat no 99, Jakarta Selatan, Jakarta.</a>
+                                            <a href="#">Jl. Kedoya Raya No.7, RT.1/RW.1, Kedoya Utara, Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520</a>
                                         </li>
                                         <li class="footer-aboutus__contacts-item">
                                             <a href="#">marketing_eigentum@corp.com</a>
                                         </li>
                                         <li class="footer-aboutus__contacts-item">
-                                            <a href="#">+1 754 000-00-00</a>
+                                            <a href="#">+62888-111-222-333</a>
                                         </li>
                                     </ul>
                                 </div>
