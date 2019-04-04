@@ -39,10 +39,10 @@
                                     <div class="col-12 col-md-6 col-lg-5">
                                         <div class="block-collections__item block-collections__item--left">
                                             <div class="block-collections__info block-collections__info--top-left">
-                                                <div class="block-collections__name">Sunny Wind</div>
-                                                <div class="block-collections__description">Lorem ipsum dolor sit amet, consectetur adipiscing magna. Mauris sed coqut odio.</div>
+                                                <div class="block-collections__name">Sunny Wind Home</div>
+                                                <div class="block-collections__description">Rumah minimalis dengan tempat yang strategis dan pengamanan 24 jam.</div>
                                                 <div class="block-collections__button">
-                                                    <a href="shop-grid.html" class="btn btn-primary">Shop Now</a>
+                                                    <a href="shop-grid.html" class="btn btn-primary">View</a>
                                                 </div>
                                             </div>
                                             <div class="block-collections__image">
@@ -68,10 +68,10 @@
                                                 </a>
                                             </div>
                                             <div class="block-collections__info block-collections__info--bottom-right">
-                                                <div class="block-collections__name">Anero Monero</div>
-                                                <div class="block-collections__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in feugiat lorem. Pellentque ac placerat tellus. Ut a lectus magna. Mauris sed coqut odio.</div>
+                                                <div class="block-collections__name">Anero Monero Apartemen</div>
+                                                <div class="block-collections__description">Apartemen mewah yang berada di tengah kota Jakarta. Tempat yang strategis dengan pusat perbelanjaan.</div>
                                                 <div class="block-collections__button">
-                                                    <a href="shop-grid.html" class="btn btn-primary">Shop Now</a>
+                                                    <a href="shop-grid.html" class="btn btn-primary">View</a>
                                                 </div>
                                             </div>
                                         </div>
