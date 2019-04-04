@@ -142,11 +142,11 @@
                                 <use xlink:href="images/sprite.svg#menu"></use>
                             </svg>
                         </button>
-                        <img src="images/Logo-Eigentum-Corp.png" alt="" width="150px" height="100px" style="margin: -12px;">
+                        <img src="images/Logo-Eigentum-Corp.png" alt="" width="120px" height="70px" style="margin: -5px;">
                         <nav class="header__nav main-nav">
                             <ul class="main-nav__list">
                                 <li class="main-nav__item">
-                                    <a class="main-nav__link" href="index.html">Home</a>
+                                    <a class="main-nav__link" href="/">Home</a>
                                 </li>
                                 <li class="main-nav__item">
                                     <a class="main-nav__link" href="#">Categories 
