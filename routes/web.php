@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('.layouts.homelayouts');
 });
-Route::get('/', function () {
+Route::get('/index', function () {
     return view('index');
 });
 Route::get('/about-us', function(){

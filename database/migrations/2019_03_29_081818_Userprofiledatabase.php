@@ -15,8 +15,8 @@ class Userprofiledatabase extends Migration
     {
         Schema::create('user_profile', function (Blueprint $table) {
             $table->bigIncrements('id_user_profile');
-            $table->integer('id_role')->unsigned();
-            $table->integer('id_user')->unsigned();
+            $table->unsignedBigInteger('id_role')->unsigned();
+            $table->unsignedBigInteger('id_user')->unsigned();
             $table->string('first_name');
             $table->string('last_name');
             $table->string('email');
