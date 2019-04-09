@@ -14,6 +14,7 @@ class Foreignkeydatabase extends Migration
     public function up()
     {
         Schema::table('user', function(Blueprint $table){
+<<<<<<< HEAD
             $table->foreign('id_role')->references('id_role')->on('role');
         });
 
@@ -49,6 +50,43 @@ class Foreignkeydatabase extends Migration
 
         Schema::table('sales_report', function(Blueprint $table){
             $table->foreign('id_transaction')->references('id_transaction')->on('transaction');
+=======
+            $table->foreign('id_role')->references('id_role')->on('Roledatabase');
+        });
+
+        Schema::table('comment', function(Blueprint $table){
+            $table->foreign('id_product')->references('id_product')->on('Productdatabase');
+            $table->foreign('id_user')->references('id_user')->on('Userdatabase');
+            $table->foreign('id_reply')->references('id_reply')->on('Replydatabase');
+        });
+
+        Schema::table('product', function(Blueprint $table){
+            $table->foreign('id_category')->references('id_category')->on('Categorydatabase');
+        });
+
+        Schema::table('promo', function(Blueprint $table){
+            $table->foreign('id_product')->references('id_product')->on('Productdatabase');
+        });
+
+        Schema::table('reply', function(Blueprint $table){
+            $table->foreign('id_user')->references('id_user')->on('Userdatabase');
+            $table->foreign('id_product')->references('id_product')->on('Productdatabase');
+            $table->foreign('id_comment')->references('id_comment')->on('Commentdatabase');
+        });
+
+        Schema::table('user_profile', function(Blueprint $table){
+            $table->foreign('id_role')->references('id_role')->on('Roledatabase');
+            $table->foreign('id_user')->references('id_user')->on('Userdatabase');
+        });
+
+        Schema::table('transaction', function(Blueprint $table){
+            $table->foreign('id_user')->references('id_user')->on('Userdatabase');
+            $table->foreign('id_product')->references('id_product')->on('Productdatabase');
+        });
+
+        Schema::table('sales_report', function(Blueprint $table){
+            $table->foreign('id_transaction')->references('id_transaction')->on('Transactiondatabase');
+>>>>>>> a0c132b815a3e13198c6a15edc224ef0c641769d
         });
     }
 
