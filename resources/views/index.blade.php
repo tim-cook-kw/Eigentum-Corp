@@ -90,152 +90,62 @@
                                     <div class="owl-carousel">
                                         <div class="post-card post-card--layout--default">
                                             <div class="post-card__image">
-                                                <a href="post.html">
+                                                <a href="post1">
                                                     <img srcset="images/posts/post1.jpg, images/posts/post1@2x.jpg 2x" src="images/posts/post1.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="post-card__info">
-                                                <div class="post-card__date">November 30, 2018</div>
+                                                <div class="post-card__date">April 04, 2019</div>
                                                 <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">New Collection Of Office Furniture Anero Manero Will Go On Sale May 27</a>
+                                                    <a class="post-card__name-link" href="post1">10 Tips Membeli Rumah Bagi Keluarga Muda</a>
                                                 </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
+                                                <div class="post-card__description">Membeli rumah pasti terdapat dalam daftar prioritas para pasangan muda, yang baru menikah. Tapi tentu Anda tahu bila urusan membeli rumah, apalagi untuk pertama kali, bukanlah perkara mudah.</div>
+                                                <a href="post1" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
                                             </div>
                                         </div>
                                         <div class="post-card post-card--layout--default">
                                             <div class="post-card__image">
-                                                <a href="post.html">
+                                                <a href="post2">
                                                     <img srcset="images/posts/post2.jpg, images/posts/post2@2x.jpg 2x" src="images/posts/post2.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="post-card__info">
-                                                <div class="post-card__date">October 19, 2018</div>
+                                                <div class="post-card__date">April 01, 2019</div>
                                                 <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Donec viverra, nulla a accumsan finibus commodo ligula</a>
+                                                    <a class="post-card__name-link" href="post2">6 Tips Cerdas Beli Apartemen yang Nyaman</a>
                                                 </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
+                                                <div class="post-card__description">Bagi Anda yang tinggal di kawasan perkotaan atau bahkan pinggiran kota, memiliki hunian pribadi kerap menjadi hal yang sulit untuk diwujudkan. Selain harganya yang sangat tinggi, ketersediaan rumah tapak juga memang terbilang sangat minim, terutama di</div>
+                                                <a href="post2" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
                                             </div>
                                         </div>
                                         <div class="post-card post-card--layout--default">
                                             <div class="post-card__image">
-                                                <a href="post.html">
+                                                <a href="post3">
                                                     <img srcset="images/posts/post3.jpg, images/posts/post3@2x.jpg 2x" src="images/posts/post3.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="post-card__info">
-                                                <div class="post-card__date">August 8, 2018</div>
+                                                <div class="post-card__date">Maret 28, 2019</div>
                                                 <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Aliquam facilisis dapibus eros sit amet fermentum vestibulum congue</a>
+                                                    <a class="post-card__name-link" href="post3">9 Tips Cara Membuat Taman Depan Rumah Sendiri</a>
                                                 </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
+                                                <div class="post-card__description">Siap untuk menjajaki tips cara membuat taman depan rumah? Sudah yakin kalau kamu punya kemampuan dalam tata cara membuat taman depan rumah? Jangan cemas, ada Saya yang siap memberikan 9</div>
+                                                <a href="post3" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
                                             </div>
                                         </div>
                                         <div class="post-card post-card--layout--default">
                                             <div class="post-card__image">
-                                                <a href="post.html">
+                                                <a href="post4">
                                                     <img srcset="images/posts/post4.jpg, images/posts/post4@2x.jpg 2x" src="images/posts/post4.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="post-card__info">
-                                                <div class="post-card__date">Jule 11, 2018</div>
+                                                <div class="post-card__date">Maret 24, 2019</div>
                                                 <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Nullam at varius sapien sed sit amet condimentum elit</a>
+                                                    <a class="post-card__name-link" href="post4">6 Tips Memilih Furniture Untuk Rumah Minimalis Paling Mudah dan Tepat</a>
                                                 </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="post-card post-card--layout--default">
-                                            <div class="post-card__image">
-                                                <a href="post.html">
-                                                    <img srcset="images/posts/post5.jpg, images/posts/post5@2x.jpg 2x" src="images/posts/post5.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-card__info">
-                                                <div class="post-card__date">June 8, 2018</div>
-                                                <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Vestibulum leo sapien sollicitudin at magna eu interdum congue feugiat</a>
-                                                </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="post-card post-card--layout--default">
-                                            <div class="post-card__image">
-                                                <a href="post.html">
-                                                    <img srcset="images/posts/post6.jpg, images/posts/post6@2x.jpg 2x" src="images/posts/post6.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-card__info">
-                                                <div class="post-card__date">May 27, 2018</div>
-                                                <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Maecenas consequat elementum orci sit amet dictum</a>
-                                                </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="post-card post-card--layout--default">
-                                            <div class="post-card__image">
-                                                <a href="post.html">
-                                                    <img srcset="images/posts/post7.jpg, images/posts/post7@2x.jpg 2x" src="images/posts/post7.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-card__info">
-                                                <div class="post-card__date">April 23, 2018</div>
-                                                <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Nullam vehicula lorem nec augue semper ac vehicula enim tempus</a>
-                                                </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="post-card post-card--layout--default">
-                                            <div class="post-card__image">
-                                                <a href="post.html">
-                                                    <img srcset="images/posts/post8.jpg, images/posts/post8@2x.jpg 2x" src="images/posts/post8.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-card__info">
-                                                <div class="post-card__date">March 12, 2018</div>
-                                                <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">In hac habitasse platea dictumst praesent vehicula vitae pulvinar maximus</a>
-                                                </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="post-card post-card--layout--default">
-                                            <div class="post-card__image">
-                                                <a href="post.html">
-                                                    <img srcset="images/posts/post9.jpg, images/posts/post9@2x.jpg 2x" src="images/posts/post9.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-card__info">
-                                                <div class="post-card__date">February 28, 2018</div>
-                                                <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Curabitur quam augue vestibulum in mauris fermentum pellentesque libero</a>
-                                                </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="post-card post-card--layout--default">
-                                            <div class="post-card__image">
-                                                <a href="post.html">
-                                                    <img srcset="images/posts/post10.jpg, images/posts/post10@2x.jpg 2x" src="images/posts/post10.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-card__info">
-                                                <div class="post-card__date">January 7, 2018</div>
-                                                <div class="post-card__name">
-                                                    <a class="post-card__name-link" href="post.html">Suspendisse dignissim luctus metus vitae aliquam vestibulum sem odio</a>
-                                                </div>
-                                                <div class="post-card__description">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                                <a href="post.html" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
+                                                <div class="post-card__description">Tips Memilih Furniture bisa menjadi panduan yang baik bagi anda apabila ingin membeli furniture. Perabot rumah atau biasanya disebut furniture memang tak bisa lepas dari yang namanya tempat tinggal atau rumah. Begitu juga tempat tinggal atau rumah tanpa perabot atau yang disebut furniture akan terasa kosong tiada berpenghuni.</div>
+                                                <a href="post4" class="btn btn-primary btn-xs post-card__read-more">Read More</a>
                                             </div>
                                         </div>
                                     </div>
