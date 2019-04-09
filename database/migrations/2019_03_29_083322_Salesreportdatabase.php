@@ -15,11 +15,7 @@ class Salesreportdatabase extends Migration
     {
         Schema::create('sales_report', function (Blueprint $table) {
             $table->bigIncrements('id_sales_report');
-<<<<<<< HEAD
             $table->unsignedBigInteger('id_transaction')->nullable();
-=======
-            $table->integer('id_transaction')->unsigned();
->>>>>>> a0c132b815a3e13198c6a15edc224ef0c641769d
         });
     }
 

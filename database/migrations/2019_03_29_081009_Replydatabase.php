@@ -15,15 +15,9 @@ class Replydatabase extends Migration
     {
         Schema::create('reply', function (Blueprint $table) {
             $table->bigIncrements('id_reply');
-<<<<<<< HEAD
             $table->unsignedBigInteger('id_user')->nullable();
             $table->unsignedBigInteger('id_product')->nullable();
             $table->unsignedBigInteger('id_comment')->nullable();
-=======
-            $table->integer('id_user')->unsigned();
-            $table->integer('id_product')->unsigned();
-            $table->integer('id_comment')->unsigned();
->>>>>>> a0c132b815a3e13198c6a15edc224ef0c641769d
             $table->text('reply_description');
         });
     }
