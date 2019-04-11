@@ -15,13 +15,12 @@ class Productdatabase extends Migration
     {
         Schema::create('product', function (Blueprint $table) {
             $table->bigIncrements('id_product');
-            $table->integer('id_category')->unsigned();
-            $table->foreign('id_category')->references('id_category')->on('Categorydatabase');
+            $table->unsignedBigInteger('id_category')->nullable();
             $table->string('product_name');
-            $table->text('comment_description');
-            $table->blob('image');
-            $table->timestamps('created_at');
-            $table->interger('product_price');
+            //$table->text('comment_description');
+            //$table->blob('image');
+            //$table->timestamps('created_at');
+            $table->integer('product_price');
             $table->text('address');
             $table->boolean('status');
             $table->string('product_type');

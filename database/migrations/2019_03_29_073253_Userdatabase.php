@@ -16,8 +16,7 @@ class Userdatabase extends Migration
         Schema::create('user', function (Blueprint $table) {
             $table->bigIncrements('id_user');
             $table->string('department_name');
-            $table->integer('id_role')->unsigned();
-            $table->foreign('id_role')->references('id_role')->on('Roledatabase');
+            $table->unsignedBigInteger('id_role')->nullable();
             $table->string('username');
             $table->string('password');
         });

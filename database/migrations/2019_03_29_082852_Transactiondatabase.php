@@ -15,10 +15,8 @@ class Transactiondatabase extends Migration
     {
         Schema::create('transaction', function (Blueprint $table) {
             $table->bigIncrements('id_transaction');
-            $table->integer('id_user')->unsigned();
-            $table->foreign('id_user')->references('id_user')->on('Userdatabase');
-            $table->integer('id_product')->unsigned();
-            $table->foreign('id_product')->references('id_product')->on('Productdatabase');
+            $table->unsignedBigInteger('id_user')->nullable();
+            $table->unsignedBigInteger('id_product')->nullable();
             $table->integer('total_price');
         });
     }
