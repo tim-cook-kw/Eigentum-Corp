@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('.layouts.homelayouts');
+    return view('index');
 });
 Route::get('/index', function () {
     return view('index');
@@ -32,4 +32,17 @@ Route::get('/post3', function () {
 Route::get('/post4', function () {
     return view('post4');
 });
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/register', function () {
+    return view('register');
+});
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
