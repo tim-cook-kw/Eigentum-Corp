@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Eigentum Corp</title>    
-    <link rel="icon" type="image/png" href="images/Logo-Eigentum-Corp.png">
+    <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i">
@@ -40,7 +39,5 @@
     @include('navbar')
     <!-- content body -->
     @yield('content')
-    <!-- Footer -->
-    @include('footer')
 </body>
 </html>

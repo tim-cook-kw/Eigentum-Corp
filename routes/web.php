@@ -17,6 +17,19 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('index');
 });
-Route::get('/about-us', function(){
-    return view('about-us');
+Route::get('/blog', function () {
+    return view('blog');
 });
+Route::get('/post1', function () {
+    return view('post1');
+});
+Route::get('/post2', function () {
+    return view('post2');
+});
+Route::get('/post3', function () {
+    return view('post3');
+});
+Route::get('/post4', function () {
+    return view('post4');
+});
+
