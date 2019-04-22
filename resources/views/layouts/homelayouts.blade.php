@@ -39,5 +39,7 @@
     @include('navbar')
     <!-- content body -->
     @yield('content')
+    <!-- Footer Menu -->
+    @include('footer')
 </body>
 </html>
