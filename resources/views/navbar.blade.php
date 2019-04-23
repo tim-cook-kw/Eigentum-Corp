@@ -187,7 +187,7 @@
                                     <a class="main-nav__link" href="/contact-us">Contact Us</a>
                                 </li>
                                 <li class="main-nav__item main-nav__item--with--menu">
-                                    <a class="main-nav__link" href="shop-grid.html">Profile 
+                                    <a class="main-nav__link" href="#">Profile 
 										<svg class="main-nav__link-arrow" width="9px" height="6px">
 											<use xlink:href="images/sprite.svg#arrow-down-9x6"></use>
 										</svg>
