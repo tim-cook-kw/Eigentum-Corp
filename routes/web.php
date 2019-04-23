@@ -41,6 +41,9 @@ Route::get('/register', function () {
 Route::get('/contact-us', function () {
     return view('contact-us');
 });
+Route::get('/about-us', function () {
+    return view('about-us');
+});
 
 
 Auth::routes();

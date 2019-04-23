@@ -186,6 +186,11 @@
                                 <li class="main-nav__item">
                                     <a class="main-nav__link" href="/contact-us">Contact Us</a>
                                 </li>
+
+                                
+                                <li class="main-nav__item">
+                                    <a class="main-nav__link" href="/about-us">About Us</a>
+                                </li>
                                 <li class="main-nav__item main-nav__item--with--menu">
                                     <a class="main-nav__link" href="#">Profile 
 										<svg class="main-nav__link-arrow" width="9px" height="6px">
@@ -202,8 +207,9 @@
                                             </li>
                                             <li class="menu__item">
                                                 <form action="{{ route ('logout') }}" method="POST"
-                                                @csrf
-                                                    <a class="menu__link" href="/index">Logout</a>
+                                                    @csrf
+                                                        <a class="menu__link" href="/index">Logout</a>
+                                                </form>
                                             </li>
                                         </ul>
                                     </div>
