@@ -206,10 +206,15 @@
                                                 <a class="menu__link" href="/register">Register</a>
                                             </li>
                                             <li class="menu__item">
-                                                <form action="{{ route ('logout') }}" method="POST"
-                                                    @csrf
-                                                        <a class="menu__link" href="/index">Logout</a>
-                                                </form>
+                                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                document.getElementById('logout-form').submit();">
+                                                {{ __('Logout') }}
+                                            </a>
+
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                @csrf
+                                            </form>
                                             </li>
                                         </ul>
                                     </div>
