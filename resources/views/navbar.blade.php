@@ -96,7 +96,7 @@
                         <nav class="header__nav main-nav">
                             <ul class="main-nav__list">
                                 <li class="main-nav__item">
-                                    <a class="main-nav__link" href="index">Home</a>
+                                    <a class="main-nav__link" href="/index">Home</a>
                                 </li>
                                 <li class="main-nav__item">
                                     <a class="main-nav__link" href="#">Categories 
@@ -166,23 +166,6 @@
                                     </div>
                                 </li>
                                 <li class="main-nav__item main-nav__item--with--menu">
-                                    <a class="main-nav__link" href="shop-grid.html">Shop 
-										<svg class="main-nav__link-arrow" width="9px" height="6px">
-											<use xlink:href="images/sprite.svg#arrow-down-9x6"></use>
-										</svg>
-									</a>
-                                    <div class="main-nav__sub-menu">
-                                        <ul class="menu">
-                                            <li class="menu__item">
-                                                <a class="menu__link" href="account.html">My Account</a>
-                                            </li>
-                                            <li class="menu__item">
-                                                <a class="menu__link" href="wishlist.html">Wishlist</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="main-nav__item main-nav__item--with--menu">
                                     <a class="main-nav__link" href="blog">Blog 
 																					<svg class="main-nav__link-arrow" width="9px" height="6px">
 																						<use xlink:href="images/sprite.svg#arrow-down-9x6"></use>
@@ -199,43 +182,42 @@
                                         </ul>
                                     </div>
                                 </li>
+                                
+                                <li class="main-nav__item">
+                                    <a class="main-nav__link" href="/contact-us">Contact Us</a>
+                                </li>
+
+                                
+                                <li class="main-nav__item">
+                                    <a class="main-nav__link" href="/about-us">About Us</a>
+                                </li>
                                 <li class="main-nav__item main-nav__item--with--menu">
-                                    <a class="main-nav__link" href="about-us.html">Pages 
-																					<svg class="main-nav__link-arrow" width="9px" height="6px">
-																						<use xlink:href="images/sprite.svg#arrow-down-9x6"></use>
-																					</svg>
-																				</a>
+                                    <a class="main-nav__link" href="#">Profile 
+										<svg class="main-nav__link-arrow" width="9px" height="6px">
+											<use xlink:href="images/sprite.svg#arrow-down-9x6"></use>
+										</svg>
+									</a>
                                     <div class="main-nav__sub-menu">
                                         <ul class="menu">
                                             <li class="menu__item">
-                                                <a class="menu__link" href="about-us.html">About Us</a>
+                                                <a class="menu__link" href="/login">Login</a>
                                             </li>
                                             <li class="menu__item">
-                                                <a class="menu__link" href="contact-us.html">Contact Us</a>
+                                                <a class="menu__link" href="/register">Register</a>
                                             </li>
                                             <li class="menu__item">
-                                                <a class="menu__link" href="404.html">404</a>
-                                            </li>
-                                            <li class="menu__item">
-                                                <a class="menu__link" href="terms-and-conditions.html">Terms And Conditions</a>
-                                            </li>
-                                            <li class="menu__item">
-                                                <a class="menu__link" href="faq.html">FAQ</a>
-                                            </li>
-                                            <li class="menu__item">
-                                                <a class="menu__link" href="components.html">Components</a>
-                                            </li>
-                                            <li class="menu__item">
-                                                <a class="menu__link" href="typography.html">Typography</a>
+                                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                document.getElementById('logout-form').submit();">
+                                                {{ __('Logout') }}
+                                            </a>
+
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                @csrf
+                                            </form>
                                             </li>
                                         </ul>
                                     </div>
-                                </li>
-                                <li class="main-nav__item">
-                                    <a class="main-nav__link" href="contact-us.html">Contact Us</a>
-                                </li>
-                                <li class="main-nav__item">
-                                    <a class="main-nav__link" href="#">Buy Theme</a>
                                 </li>
                             </ul>
                         </nav>
