@@ -15,12 +15,9 @@ class Commentdatabase extends Migration
     {
         Schema::create('comment', function (Blueprint $table) {
             $table->bigIncrements('id_comment');
-            $table->integer('id_product')->unsigned();
-            $table->foreign('id_product')->references('id_product')->on('Productdatabase');
-            $table->integer('id_user')->unsigned();
-            $table->foreign('id_user')->references('id_user')->on('Userdatabase');
-            $table->integer('id_reply')->unsigned();
-            $table->foreign('id_reply')->references('id_reply')->on('Replydatabase');
+            $table->unsignedBigInteger('id_product')->nullable();
+            $table->unsignedBigInteger('id_user')->nullable();
+            $table->unsignedBigInteger('id_reply')->nullable();
             $table->text('comment_description');
         });
     }
