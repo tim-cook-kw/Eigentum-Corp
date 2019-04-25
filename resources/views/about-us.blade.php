@@ -96,7 +96,7 @@
                 <div class="typography text-center mt-5">
                     <h4 class="mb-3">Interested in Working Together?</h4>
                     <p>Silahkan hubungi kami segera!</p>
-                    <p><a href="#" class="btn btn-primary">Contact Us</a></p>
+                    <p><a href="/contact-us" class="btn btn-primary">Contact Us</a></p>
                 </div>
             </div>
         </div>
