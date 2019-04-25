@@ -222,10 +222,10 @@
                         <div class="header__indicator">
                             <button type="button" class="header__indicator-button indicator search-trigger">
                                 <span class="indicator__area">
-																				<svg class="indicator__icon" width="20px" height="20px">
-																					<use xlink:href="images/sprite.svg#search-20"></use>
-																				</svg>
-																			</span>
+                                    <svg class="indicator__icon" width="20px" height="20px">
+                                        <use xlink:href="images/sprite.svg#search-20"></use>
+                                    </svg>
+								</span>
                             </button>
                         </div>
                     </div>
