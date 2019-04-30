@@ -1,4 +1,4 @@
-Gunakan perintah dibawah dengan command prompt
+pGunakan perintah dibawah dengan command prompt
 
 1. Masuk ke folder project dengan perintah "cd NamaProject" tanpa petik
 
